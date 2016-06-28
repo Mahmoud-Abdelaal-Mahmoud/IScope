@@ -26,10 +26,10 @@
   <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2"/>
   <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0"/>
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
-  <plugin name="plugin.google.maps.menusito" spec="1.2.5" source="pgb" />
+  
   <gap:plugin name="plugin.google.maps.menusito" version="1.2.5" source="pgb">
     <param name="API_KEY_FOR_ANDROID" value="AIzaSyDyqAFxk2Ou7e-mAPOdpBWgtjEZuN01nEM" />
-    <param name="API_KEY_FOR_IOS" value="123" />
+    
   </gap:plugin>
   
   
