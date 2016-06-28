@@ -1,0 +1,82 @@
+
+body {font-family: "Lato", sans-serif; direction: rtl;}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    direction: rtl;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: right;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+    border-bottom: 3px solid red;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    direction: rtl;
+    height: 480px;
+}
+
+/****************** price tap *******************/
+ #pric_chart{
+  position: relative;
+   width: 30% ;
+   margin-top: 10%;
+}
+ table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+  th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    width: 49.5%;
+}
+  tr:nth-child(odd) td:nth-child(2){
+    background: red;
+    width: 1px !important;
+    padding: 0px !important;
+    text-align: center;
+}
+  tr:nth-child(even) td:nth-child(2){
+    background: yellow;
+    width: 1px !important;
+    padding: 0px !important;
+    text-align: center;
+}
+  tr:nth-child(even){background-color: #f2f2f2}
