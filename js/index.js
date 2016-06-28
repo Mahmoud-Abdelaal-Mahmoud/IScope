@@ -53,7 +53,7 @@ var app = {
         console.log('Received Event: ' + id);*/
 
 
-         var mapDiv = document.getElementById("map");
+        /* var mapDiv = document.getElementById("map");
 
   const GOOGLE = new plugin.google.maps.LatLng(37.422476,-122.08425);
   var map = plugin.google.maps.Map.getMap(mapDiv, {
@@ -74,7 +74,7 @@ var app = {
 
     });
 
-  });
+  });*/
 
     }
 };
